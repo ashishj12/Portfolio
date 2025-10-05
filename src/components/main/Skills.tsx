@@ -1,20 +1,20 @@
-'use client'
+'use client';
 
-import React from 'react'
-import { motion } from 'framer-motion'
-import { Skill, skills } from '@/constants'
-import SkillDataProvider from '../sub/SkillDataProvider'
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Skill, skills } from '@/constants';
+import SkillDataProvider from '../sub/SkillDataProvider';
 
 const uniqueSkills: Skill[] = Array.from(
   skills
     .reduce((map, skill) => {
       if (!map.has(skill.skill_name)) {
-        map.set(skill.skill_name, { ...skill, width: 40, height: 40 })
+        map.set(skill.skill_name, { ...skill, width: 40, height: 40 });
       }
-      return map
+      return map;
     }, new Map<string, Skill>())
-    .values(),
-).sort((a, b) => a.skill_name.localeCompare(b.skill_name))
+    .values()
+);
 
 const Skills = () => {
   return (
@@ -90,7 +90,7 @@ const Skills = () => {
         Constantly refining and expanding my technical skillset
       </p>
     </section>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
