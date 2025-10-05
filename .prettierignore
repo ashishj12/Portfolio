@@ -1,0 +1,36 @@
+# Build output
+.next
+out
+
+# Node modules
+node_modules
+.wrangler
+.vscode
+.github
+
+
+# Logs
+*.log
+
+# Coverage reports
+coverage
+
+# System files
+.DS_Store
+
+# Env files
+.env
+.env.local
+.env.development
+.env.production
+
+# Public assets (optional)
+public
+
+# TypeScript build output (if using tsc separately)
+dist
+
+# Ignore lockfiles if needed
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
