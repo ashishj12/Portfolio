@@ -44,7 +44,7 @@ const projectsData = [
       'Modern portfolio built with Next.js, TailwindCSS, and ShadCN, deployed on Cloudflare Pages.',
     imageURL: '/portfolio.png',
     github: 'https://github.com/ashishj12/Portfolio',
-    live: 'https://ashlok.dev/',
+    live: 'https://portfolio-mu-ashen-74.vercel.app/',
     icon: <IconTableColumn className="h-4 w-4 text-muted-foreground" />,
   },
   {
