@@ -43,7 +43,7 @@ const projectsData = [
     description:
       'Modern portfolio built with Next.js, TailwindCSS, and ShadCN, deployed on Cloudflare Pages.',
     imageURL: '/portfolio.png',
-    github: 'https://github.com/ashishj12/Portfolio',
+    github: 'https://github.com/ashishj12/portfolio',
     live: 'https://portfolio-mu-ashen-74.vercel.app/',
     icon: <IconTableColumn className="h-4 w-4 text-muted-foreground" />,
   },
