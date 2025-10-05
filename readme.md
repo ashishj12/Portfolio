@@ -77,7 +77,7 @@ Open your browser and navigate to `http://localhost:3000` to view the applicatio
 The project requires the following environment variables. Create a `.env` file in the root directory and add your values:
 
 ```plaintext
-RESEND_API_KEYY=your-resend-api-key
+RESEND_API_KEY=your-resend-api-key
 ```
 
 These variables are essential for connecting the contact form to the Resend email service.
