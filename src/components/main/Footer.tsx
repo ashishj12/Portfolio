@@ -35,6 +35,17 @@ const Footer: FC = () => {
       icon: <FaLinkedin className="w-5 h-5" />,
       label: 'LinkedIn',
     },
+    // {
+    //   href: 'leetcode.com/ashishj12',
+    //   icon: (
+    //     <img
+    //       src="/leetcode.png"
+    //       alt="LeetCode"
+    //       className="w-5 h-5 object-contain"
+    //     />
+    //   ),
+    //   label: 'LeetCode',
+    // }
     
   ];
 
